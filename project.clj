@@ -1,4 +1,4 @@
-(defproject org.clojars.brunchboy/protobuf "0.8.3-SNAPSHOT"
+(defproject org.clojars.brunchboy/protobuf "0.8.3"
   :description "Clojure-protobuf provides a clojure interface to Google's protocol buffers."
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
