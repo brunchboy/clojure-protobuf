@@ -11,7 +11,7 @@
   :plugins [[org.clojars.brunchboy/lein-protobuf "0.4.3"]]
   :aliases {"testall" ["with-profile" "dev,default:dev,1.3,default:dev,1.5,default" "test"]}
   :profiles {:1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
-             :1.5 {:dependencies [[org.clojure/clojure "1.5.0-master-SNAPSHOT"]]}
+             :1.5 {:dependencies [[org.clojure/clojure "1.5.0"]]}
              :dev {:dependencies [[gloss "0.2.1"]]}}
   :repositories {"sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"
                                        :snapshots true
