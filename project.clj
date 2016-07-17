@@ -2,13 +2,13 @@
   :description "Clojure-protobuf provides a clojure interface to Google's protocol buffers."
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :url "https://github.com/flatland/clojure-protobuf"
+  :url "https://github.com/brunchboy/clojure-protobuf"
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [org.flatland/useful "0.9.0"]
                  [org.flatland/schematic "0.1.0"]
                  [org.flatland/io "0.3.0"]
                  [ordered-collections "0.4.0"]]
-  :plugins [[org.clojars.brunchboy/lein-protobuf "0.4.3-SNAPSHOT"]]
+  :plugins [[org.clojars.brunchboy/lein-protobuf "0.4.3"]]
   :aliases {"testall" ["with-profile" "dev,default:dev,1.3,default:dev,1.5,default" "test"]}
   :profiles {:1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
              :1.5 {:dependencies [[org.clojure/clojure "1.5.0-master-SNAPSHOT"]]}
